@@ -19,6 +19,7 @@ import { PrivateProductsComponent } from './private-products/private-products.co
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { ProductsService } from './products.service';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { RegistrationComponent } from './registration/registration.component';
     FormsModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    ProductsService,
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
