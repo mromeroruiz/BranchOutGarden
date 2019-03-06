@@ -1,26 +1,28 @@
+
+.wrapper{
+  position: fixed;
+  align-content: center;
+  display: inline;
+}
+
 .logo {
-    background: url('Branchout_logo.png') repeat-none;
-    /* display: inline-block; */
-    float: right;
-    width: 8em;
-    height: 8em;
+    background: url('BranchOut_logo.png') repeat-none;
+   display: inline;
+    position: fixed;
     background-repeat: none;
     padding-right: 3em;
+    top: -3em;
+    border: 3px, #7dce94;
   }
-  .home-image {
-    width: 30em;
-    height: 30em;
-  }
-  .logo-background {
   
-    background: #f6f5f3;
-  }
+  
   body {
     
     background-color:  #f6f5f3;
-    width: 40em; 
+    width: 40em;
+   top: 20em;
     height: 100%;
-    color:  #3d3d3f;
+    padding-top:8em;
   }
   
   .title {
@@ -30,10 +32,9 @@
   }
   .text-box {
     padding: 3em;
-    background: #f6f5f3;
-    opacity: 10%;
-    color:#3d3d3f;
-    height: 100vh;
+    display: inline;
+    top: 20em;
+    position: relative;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(221, 198, 198);
   }
