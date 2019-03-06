@@ -10,6 +10,7 @@ import { PrivateProductsComponent } from './private-products/private-products.co
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { LoginComponent } from './login/login.component';
     ProductsComponent,
     PrivateProductsComponent,
     NavbarComponent,
-    LoginComponent
+    LoginComponent,
+    
   ],
   imports: [
     BrowserModule,
