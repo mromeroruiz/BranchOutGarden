@@ -1,14 +1,15 @@
-<div class="wrapper">
-<h2 class="title">Our Plants</h2>
-<div class="deck">
-  <div class="card">
-    <div class="container">
-      <h3><em>{{ plant name }}</em></h3>
-      <p>{{ plant description }}</p>
-      <p>{{ plant price }}</p>
-      <p>{{ plant image }}</p>
+<div class="container">
+
+    <div class="wrapper">
+      <h3 class="title">Our Plants</h3>
+      <ul class="ul-wrapper" *ngIf="product">
+        <li *ngFor="let prod of product">
+          <div class="plant-div">
+            <p>{{ prod.product_name }}</p>
+            <p>{{ prod.product_description }}</p>
+            <p>{{ prod.product_price }}</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
-</div>
-</div>
-<h1>Hello</h1>

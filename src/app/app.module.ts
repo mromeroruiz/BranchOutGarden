@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { 
   MatToolbarModule,
@@ -36,9 +37,9 @@ import { ProductsService } from './products.service';
   ],
   imports: [
     FormsModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    ProductsService,
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
@@ -46,7 +47,7 @@ import { ProductsService } from './products.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
