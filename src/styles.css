@@ -1,4 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 
 .wrapper{
     position: fixed;
@@ -16,7 +18,10 @@
       border: 3px, #7dce94;
     }
     
-    
+    body, html {
+    margin: 0 auto;
+}
+
     body {
       
       background-color:  #f6f5f3;
@@ -24,6 +29,7 @@
      top: 20em;
       height: 100%;
       padding-top:8em;
+     
     }
     
     .title {
@@ -39,3 +45,4 @@
       -webkit-text-stroke-width: 1px;
       -webkit-text-stroke-color: rgb(221, 198, 198);
     }
+
