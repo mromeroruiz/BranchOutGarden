@@ -1,0 +1,15 @@
+.wrapper {
+    padding-top: 30px;
+}
+.deck {
+    display: inline-block;
+}
+
+.card {
+    text-align: center;
+    border: 3px solid #7dce94;
+}
+
+.container {
+    padding: 5px;
+}
