@@ -1,0 +1,39 @@
+.logo {
+    background: url('Branchout_logo.png') repeat-none;
+    /* display: inline-block; */
+    float: right;
+    width: 8em;
+    height: 8em;
+    background-repeat: none;
+    padding-right: 3em;
+  }
+  .home-image {
+    width: 30em;
+    height: 30em;
+  }
+  .logo-background {
+  
+    background: #f6f5f3;
+  }
+  body {
+    
+    background-color:  #f6f5f3;
+    width: 40em; 
+    height: 100%;
+    color:  #3d3d3f;
+  }
+  
+  .title {
+    color:#3d3d3f;
+    -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color:#3d3d3f;
+  }
+  .text-box {
+    padding: 3em;
+    background: #f6f5f3;
+    opacity: 10%;
+    color:#3d3d3f;
+    height: 100vh;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(221, 198, 198);
+  }
