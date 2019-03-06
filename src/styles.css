@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+.wrapper{
+    position: fixed;
+    align-content: center;
+    display: inline;
+  }
+  
+  .logo {
+      background: url('BranchOut_logo.png') repeat-none;
+     display: inline;
+      position: fixed;
+      background-repeat: none;
+      padding-right: 3em;
+      top: -3em;
+      border: 3px, #7dce94;
+    }
+    
+    
+    body {
+      
+      background-color:  #f6f5f3;
+      width: 40em;
+     top: 20em;
+      height: 100%;
+      padding-top:8em;
+    }
+    
+    .title {
+      color:#3d3d3f;
+      -webkit-text-stroke-width: 1px;
+       -webkit-text-stroke-color:#3d3d3f;
+    }
+    .text-box {
+      padding: 3em;
+      display: inline;
+      top: 20em;
+      position: relative;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(221, 198, 198);
+    }
